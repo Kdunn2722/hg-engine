@@ -4132,7 +4132,7 @@ mondata SPECIES_QUAGSIRE, "Quagsire"
 
 mondata SPECIES_ESPEON, "Espeon"
     basestats 65, 65, 60, 110, 130, 95
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    types TYPE_PSYCHIC, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
@@ -4153,7 +4153,7 @@ mondata SPECIES_ESPEON, "Espeon"
 
 mondata SPECIES_UMBREON, "Umbreon"
     basestats 95, 65, 110, 65, 60, 130
-    types TYPE_DARK, TYPE_DARK
+    types TYPE_DARK, TYPE_GHOST
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
@@ -9886,7 +9886,7 @@ mondata SPECIES_YANMEGA, "Yanmega"
 
 mondata SPECIES_LEAFEON, "Leafeon"
     basestats 65, 110, 130, 95, 60, 65
-    types TYPE_GRASS, TYPE_GRASS
+    types TYPE_GRASS, TYPE_BUG
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
@@ -9907,7 +9907,7 @@ mondata SPECIES_LEAFEON, "Leafeon"
 
 mondata SPECIES_GLACEON, "Glaceon"
     basestats 65, 60, 110, 65, 130, 95
-    types TYPE_ICE, TYPE_ICE
+    types TYPE_ICE, TYPE_DARK
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
@@ -15766,7 +15766,7 @@ mondata SPECIES_AURORUS, "Aurorus"
 
 mondata SPECIES_SYLVEON, "Sylveon"
     basestats 95, 65, 65, 60, 110, 130
-    types TYPE_FAIRY, TYPE_FAIRY
+    types TYPE_FAIRY, TYPE_STEEL
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
@@ -22265,7 +22265,7 @@ mondata SPECIES_WALKING_WAKE, "WalkngWake"
     basefriendship 0
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_CLEAR_BODY, ABILITY_NONE
+    abilities ABILITY_CLEAR_BODY, ABILITY_DRIZZLE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_WALKING_WAKE, "It resembles an illustration published in\na paranormal magazine, said to be a\ndepiction of a super-ancient Suicune."
@@ -22497,7 +22497,7 @@ mondata SPECIES_GOUGING_FIRE, "GouginFire"
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     runchance 0
-    abilities ABILITY_DEFIANT, ABILITY_NONE
+    abilities ABILITY_DEFIANT, ABILITY_DROUGHT
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_GOUGING_FIRE, "It resembles a Pokémon once shown in a\nparanormal magazine. That Pokémon was said\nto be an Entei regenerated from a fossil."
     mondexclassification SPECIES_GOUGING_FIRE, "Paradox Pokémon"
@@ -22517,7 +22517,7 @@ mondata SPECIES_RAGING_BOLT, "RagingBolt"
     basefriendship 0
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_COMPETITIVE, ABILITY_NONE
+    abilities ABILITY_COMPETITIVE, ABILITY_ELECTRIC_SURGE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_RAGING_BOLT, "It bears resemblance to a Pokémon that\nbecame a hot topic for a short while after\nbeing touted it as Raikou's ancestor."
