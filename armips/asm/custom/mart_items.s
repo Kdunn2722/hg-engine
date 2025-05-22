@@ -114,7 +114,7 @@ const u16 *_0210FA3C[] = {
 .org 0x020FBA54
 .halfword ITEM_HEAL_BALL
 .halfword ITEM_NET_BALL
-.halfword 0xFFFF
+.halfword ITEM_QUICK_BALL
 
 /* const u16 _020FBA5A[] = {ITEM_AIR_MAIL, ITEM_QUICK_BALL, 0xFFFF}; */
 
@@ -172,25 +172,25 @@ const u16 *_0210FA3C[] = {
 .org 0x020FBBB4
 /* This spills over into _020FBBC6 */
 /* Goldenrod Dept Store 3F & Celadon Dept Store 5F -> Chansey Supply 1 */ 
-.halfword ITEM_HP_UP
-.halfword ITEM_PROTEIN
-.halfword ITEM_IRON
-.halfword ITEM_CALCIUM
-.halfword ITEM_ZINC
-.halfword ITEM_CARBOS
-.halfword ITEM_POWER_WEIGHT
-.halfword ITEM_POWER_BRACER
-.halfword ITEM_POWER_BELT
+.halfword ITEM_SCIZORITE
+.halfword ITEM_CAMERUPTITE
+.halfword ITEM_LOPUNNITE
+.halfword ITEM_AERODACTYLITE
+.halfword ITEM_GALLADITE
+.halfword ITEM_BLAZIKENITE
+.halfword ITEM_ALTARIANITE
+.halfword ITEM_GARCHOMPITE
+.halfword ITEM_METAGROSSITE
 
-.halfword ITEM_POWER_LENS
-.halfword ITEM_POWER_BAND
-.halfword ITEM_POWER_ANKLET
-.halfword ITEM_EXP_SHARE
-.halfword ITEM_MACHO_BRACE
-.halfword 0xFFFF
-.halfword 0xFFFF
-.halfword 0xFFFF
-.halfword 0xFFFF
+.halfword ITEM_PINSIRITE
+.halfword ITEM_KANGASKHANITE
+.halfword ITEM_HERACRONITE
+.halfword ITEM_SWAMPERTITE
+.halfword ITEM_GYARADOSITE
+.halfword ITEM_SHARPEDONITE
+.halfword ITEM_LUCARIONITE
+.halfword ITEM_SCEPTILITE
+.halfword ITEM_SABLENITE
 
 /* const u16 _020FBBD8[] = {ITEM_GREAT_BALL, ITEM_SUPER_POTION, ITEM_HYPER_POTION, ITEM_ANTIDOTE, ITEM_PARLYZ_HEAL, ITEM_SUPER_REPEL, ITEM_REVIVE, ITEM_AIR_MAIL, 0xFFFF}; */
 
@@ -252,7 +252,7 @@ const u16 *_0210FA3C[] = {
 .halfword ITEM_LEAF_STONE
 .halfword ITEM_ICE_STONE
 .halfword ITEM_EVERSTONE
-.halfword 0xFFFF
+.halfword ITEM_EVIOLITE
 .halfword 0xFFFF
 .halfword 0xFFFF
 .halfword 0xFFFF
@@ -271,10 +271,10 @@ const u16 *_0210FA3C[] = {
 .halfword ITEM_ROSE_INCENSE
 .halfword ITEM_SEA_INCENSE
 .halfword ITEM_WAVE_INCENSE
-.halfword 0xFFFF
-.halfword 0xFFFF
-.halfword 0xFFFF
-.halfword 0xFFFF
+.halfword ITEM_PROTECTOR
+.halfword ITEM_ELECTIRIZER
+.halfword ITEM_MAGMARIZER
+.halfword ITEM_REAPER_CLOTH
 
 /* const u16 _020FBC68[] = {ITEM_TM21, ITEM_TM27, ITEM_TM87, ITEM_TM78, ITEM_TM12, ITEM_TM41, ITEM_TM20, ITEM_TM28, ITEM_TM76, ITEM_TM55, ITEM_TM72, ITEM_TM79, 0xFFFF}; */
 
@@ -292,6 +292,6 @@ const u16 *_0210FA3C[] = {
 .halfword ITEM_SACHET
 .halfword ITEM_UP_GRADE
 .halfword ITEM_WHIPPED_DREAM
-.halfword 0xFFFF
+.halfword ITEM_WEAKNESS_POLICY
 
 .close
